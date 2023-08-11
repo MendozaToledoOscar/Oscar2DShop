@@ -18,9 +18,12 @@ public class ItemButton : MonoBehaviour
 
 
     private Image image;
+    private PlayerCoins playerCoins;
+    private AnimatedCloth animCloth;
 
     private void Start()
     {
+        playerCoins = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCoins>();
         image = GetComponentInChildren<Image>();
         description.text = cost.ToString();
         if(!defalutImage)
@@ -30,8 +33,21 @@ public class ItemButton : MonoBehaviour
 
     public void SelectItem()
     {
-        description.text = "Wear";
-        AnimatedCloth animCloth = GameObject.FindGameObjectWithTag(clothType.ToString()).GetComponent<AnimatedCloth>();
+        if(description.text == "Wear")
+        {
+            ChangeItemCloth();
+        }
+        else if(playerCoins.numberOfCoins - cost >= 0)
+        {
+            playerCoins.UpdateCoins(-cost);
+            description.text = "Wear";
+            ChangeItemCloth();
+        }
+    }
+
+    private void ChangeItemCloth()
+    {
+        animCloth = GameObject.FindGameObjectWithTag(clothType.ToString()).GetComponent<AnimatedCloth>();
         animCloth.ChangeCloth(cloth);
     }
 
