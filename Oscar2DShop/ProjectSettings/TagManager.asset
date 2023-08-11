@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Head
+  - Top
+  - Pants
   layers:
   - Default
   - TransparentFX
@@ -44,9 +47,9 @@ TagManager:
   - name: BackWalls
     uniqueID: 1231850317
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: FrontWalls
     uniqueID: 2302409687
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0

@@ -12,26 +12,26 @@ public class AnimatedCloth : MonoBehaviour
     public List<SpriteRenderer> left = new List<SpriteRenderer>();
     public List<SpriteRenderer> right = new List<SpriteRenderer>();
 
-    public void ChangeCloth()
+    public void ChangeCloth(PlayerCloth newCloth)
     {
-        idle.sprite = cloth.Idle;
-        idle.color = cloth.clothColor;
+        idle.sprite = newCloth.Idle;
+        idle.color = newCloth.clothColor;
         for (int i = 0; i < up.Count; i++)
         {
-            up[i].sprite = cloth.Up[i];
-            down[i].sprite = cloth.Down[i];
-            left[i].sprite = cloth.Left[i];
-            right[i].sprite = cloth.Right[i];
+            up[i].sprite = newCloth.Up[i];
+            down[i].sprite = newCloth.Down[i];
+            left[i].sprite = newCloth.Left[i];
+            right[i].sprite = newCloth.Right[i];
 
-            up[i].color = cloth.clothColor;
-            down[i].color = cloth.clothColor;
-            left[i].color = cloth.clothColor;
-            right[i].color = cloth.clothColor;
+            up[i].color = newCloth.clothColor;
+            down[i].color = newCloth.clothColor;
+            left[i].color = newCloth.clothColor;
+            right[i].color = newCloth.clothColor;
         }
     }
 
     private void Start()
     {
-        ChangeCloth();
+        ChangeCloth(cloth);
     }
 }
