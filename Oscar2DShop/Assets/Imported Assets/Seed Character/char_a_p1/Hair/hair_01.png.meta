@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1470,7 +1470,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      char_a_p1_4har_bob1_v01_8: -281840389
+      char_a_p1_4har_bob1_v01_42: 167990775
       char_a_p1_4har_bob1_v01_16: -1974859344
       char_a_p1_4har_bob1_v01_21: -1890743353
       char_a_p1_4har_bob1_v01_50: 290209526
@@ -1533,7 +1533,7 @@ TextureImporter:
       char_a_p1_4har_bob1_v01_7: 174119394
       char_a_p1_4har_bob1_v01_39: 2142445603
       char_a_p1_4har_bob1_v01_18: 314138847
-      char_a_p1_4har_bob1_v01_42: 167990775
+      char_a_p1_4har_bob1_v01_8: -281840389
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

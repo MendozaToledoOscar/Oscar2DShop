@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Grass
+    uniqueID: 542736253
+    locked: 0
+  - name: BackWalls
+    uniqueID: 1231850317
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: FrontWalls
+    uniqueID: 2302409687
     locked: 0
