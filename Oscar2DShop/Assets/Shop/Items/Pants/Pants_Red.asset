@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ee94c11fd2b094cb5e0c0c912b702e, type: 3}
+  m_Name: Pants_Red
+  m_EditorClassIdentifier: 
+  Idle: {fileID: -989195608, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  Up:
+  - {fileID: -874032984, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: -868851968, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 2106061784, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 1751452694, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 171293191, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: -916505802, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  Down:
+  - {fileID: -2078159942, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: -1313441751, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 969809134, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: -1505138700, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 737165224, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 356069574, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  Left:
+  - {fileID: 793101583, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 47990487, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 8861292, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 1792304599, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 1426872926, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 45941707, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  Right:
+  - {fileID: -842388000, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: -543923543, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: -1611971818, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 354367277, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 209055221, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  - {fileID: 1146455802, guid: 7495fc19ae3e95b4c897b3268474c757, type: 3}
+  clothColor: {r: 0.5849056, g: 0.04837866, b: 0.025750507, a: 1}

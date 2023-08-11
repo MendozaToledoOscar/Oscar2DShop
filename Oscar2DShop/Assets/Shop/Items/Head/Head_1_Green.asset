@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ee94c11fd2b094cb5e0c0c912b702e, type: 3}
+  m_Name: Head_1_Green
+  m_EditorClassIdentifier: 
+  Idle: {fileID: 603050197, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  Up:
+  - {fileID: 267814250, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -1235720441, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -595408814, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -940029805, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -1321077850, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: 1464085984, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  Down:
+  - {fileID: -1851054984, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -511303451, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -1060768413, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: 1895800711, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -2067961522, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -2030753344, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  Left:
+  - {fileID: 1262595716, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: 1630907987, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: 867160886, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -738843392, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -186907342, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -772814295, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  Right:
+  - {fileID: 2026920731, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -582019423, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: 1014696709, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -1909913022, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: -759801693, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  - {fileID: 1685535276, guid: 2cde4a76459907245a426a51d75ac24f, type: 3}
+  clothColor: {r: 0.14117648, g: 0.3882353, b: 0.16078432, a: 1}

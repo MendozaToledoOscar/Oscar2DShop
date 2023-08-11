@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ee94c11fd2b094cb5e0c0c912b702e, type: 3}
+  m_Name: Pijama_1
+  m_EditorClassIdentifier: 
+  Idle: {fileID: 208946577, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  Up:
+  - {fileID: -1458756068, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: -623595191, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: 34798894, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: 1321553759, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: 1910618874, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: 915249150, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  Down:
+  - {fileID: 1406600670, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: -854784986, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: -2106674536, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: -197117526, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: -940218152, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: 1474755880, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  Left:
+  - {fileID: 1896520405, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: 1045972958, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: -867611918, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: -1249233708, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: -1532219425, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: 1952088207, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  Right:
+  - {fileID: -383389871, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: 65985047, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: 938737691, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: -952436216, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: 1047100777, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  - {fileID: 1113987822, guid: aa0fb35cfd775a447a3617e635aae11d, type: 3}
+  clothColor: {r: 1, g: 1, b: 1, a: 1}

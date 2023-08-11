@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ee94c11fd2b094cb5e0c0c912b702e, type: 3}
+  m_Name: Pijama_2
+  m_EditorClassIdentifier: 
+  Idle: {fileID: -68243256, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  Up:
+  - {fileID: 2005323529, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: -2010023709, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 1612062966, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 163181569, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 1098832140, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 244076283, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  Down:
+  - {fileID: -559626990, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 1563571463, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 228677951, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 842927369, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: -2129345644, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: -449967770, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  Left:
+  - {fileID: 392064694, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 1242430706, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: -1946039299, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 1011045594, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: -1694692714, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 1860160669, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  Right:
+  - {fileID: -1759576020, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: -1086059697, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: -1744959204, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 613953155, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 1456207303, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  - {fileID: 775459032, guid: 4815bcdcf1300e64ebf176bcefee4785, type: 3}
+  clothColor: {r: 1, g: 1, b: 1, a: 1}

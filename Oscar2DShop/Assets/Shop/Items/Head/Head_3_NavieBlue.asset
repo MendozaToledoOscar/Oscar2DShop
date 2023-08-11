@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ee94c11fd2b094cb5e0c0c912b702e, type: 3}
+  m_Name: Head_3_NavieBlue
+  m_EditorClassIdentifier: 
+  Idle: {fileID: 1736289361, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  Up:
+  - {fileID: -896852780, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: -1455547541, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: -636196166, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: 2131034403, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: -1922421748, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: 822008283, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  Down:
+  - {fileID: -1147919102, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: 610678169, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: -1252033709, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: 1378977370, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: 1426516555, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: 564414165, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  Left:
+  - {fileID: 1174643883, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: -1154682494, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: 786395612, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: -144214580, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: -1616639187, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: -1501928523, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  Right:
+  - {fileID: -1740142772, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: 611245970, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: 1761606162, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: -1737214874, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: 1711119355, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  - {fileID: 422050069, guid: 45eee41ebeeff3d4f8e75a7635ab5f29, type: 3}
+  clothColor: {r: 0.043137256, g: 0.15686275, b: 0.42352942, a: 1}
